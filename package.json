@@ -1,0 +1,31 @@
+{
+  "name": "yxl-cli",
+  "version": "1.0.0",
+  "description": "# 脚手架",
+  "main": "index.js",
+  "bin": {
+    "yxl-cli": "bin/scion"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longyixuan/yxl-cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "yinxl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/longyixuan/yxl-cli/issues"
+  },
+  "homepage": "https://github.com/longyixuan/yxl-cli#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0"
+  }
+}
